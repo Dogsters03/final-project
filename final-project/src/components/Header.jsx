@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './Header.css'
 
 export default function Header() {
@@ -5,13 +6,14 @@ export default function Header() {
     <header className="header">
       <div className="header-container">
         <div className="logo">
-          <h1>Portfolio</h1>
+          <Link to="/">Portfolio</Link>
         </div>
         <nav className="nav">
+          <Link to="/">Home</Link>
           <a href="#about">About</a>
           <a href="#projects">Projects</a>
           <a href="#skills">Skills</a>
-          <a href="#contact">Contact</a>
+          <Link to="/form">Form</Link>
         </nav>
       </div>
     </header>

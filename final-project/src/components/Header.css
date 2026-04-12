@@ -14,9 +14,19 @@
   align-items: center;
 }
 
-.logo h1 {
+.logo {
   font-size: 1.8rem;
   font-weight: 700;
+}
+
+.logo a {
+  color: white;
+  text-decoration: none;
+  transition: opacity 0.3s;
+}
+
+.logo a:hover {
+  opacity: 0.8;
 }
 
 .nav {
